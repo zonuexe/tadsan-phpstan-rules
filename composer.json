@@ -1,0 +1,29 @@
+{
+    "name": "zonuexe/tadsan-phpstan-rules",
+    "description": "PHPStan rule collection for zonuexe's private verification",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=8.2.0",
+        "phpstan/phpstan": "^1.10"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5",
+        "symplify/easy-coding-standard": "^12.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "zonuexe\\PHPStan\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "zonuexe\\PHPStan\\": "tests/"
+        }
+    },
+    "conflict": {
+        "nikic/php-parser": ">= 5.0.0"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
