@@ -20,9 +20,6 @@
             "zonuexe\\PHPStan\\": "tests/"
         }
     },
-    "conflict": {
-        "nikic/php-parser": ">= 5.0.0"
-    },
     "config": {
         "sort-packages": true
     }
